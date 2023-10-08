@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: black;
+}
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/*primary navigation */
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  background-color: blueviolet;
+  color: white;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+/*AboutRetiza Section */
+#AboutRetiza {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  height: 80vh;
+}
+
+.section_picture-container {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin: auto 0;
+  border-color: greenyellow;
+}
