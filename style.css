@@ -17,6 +17,11 @@ a,
 }
 
 /*primary navigation */
+nav,
+.nav-links {
+  display: flex;
+}
+
 nav {
   justify-content: space-around;
   align-items: center;
@@ -33,12 +38,15 @@ nav {
 
 a {
   color: white;
+  text-decoration: none;
+  text-decoration-color: white;
 }
 
 a:hover {
   color: green;
   text-decoration: underline;
   text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo {
@@ -59,8 +67,8 @@ a:hover {
 
 .section_picture-container {
   display: flex;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   margin: auto 0;
   border-color: greenyellow;
 }
