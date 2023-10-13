@@ -16,7 +16,7 @@ input {
 }
 
 body {
-  background-color: #fb839e;
+  background-color: rgb(46, 67, 116);
   color: #d9d9d9;
 }
 
@@ -65,7 +65,7 @@ input {
   position: fixed;
   width: 70px;
   height: 100vh;
-  background-color: #0d0d0d;
+  background-color: rgb(75, 82, 126);
   border-right: 2px solid #1a1a1a;
 }
 
@@ -102,7 +102,7 @@ input {
   height: 100%;
   line-height: 70px;
   padding: 0 1.6rem;
-  color: #fb839e;
+  color: rgb(229, 195, 166);
   font-size: 17px;
   font-weight: 600;
   position: relative;
@@ -112,7 +112,7 @@ input {
 .nav_contact-link {
   font-size: 1rem;
   padding: 0 0.8rem;
-  color: #fff;
+  color: rgb(46, 67, 116);
 }
 
 .nav_toggle {
@@ -124,7 +124,7 @@ input {
   top: 2rem;
   font-size: 1.2rem;
   border-radius: 0.25rem;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color:rgb(46, 67, 116);
   color: #000;
   display: none;
   justify-content: center;
@@ -186,7 +186,7 @@ input {
 .home_name span {
   font-weight: 700;
   letter-spacing: 2px;
-  color: #f7083c;
+  color:rgb(46, 67, 116);
 }
 
 .home_job {
@@ -205,7 +205,7 @@ input {
   display: inline-flex;
   align-items: center;
   column-gap: 0.5rem;
-  background-color: #fb839e;
+  background-color: rgb(46, 67, 116);
   color: #fff;
   padding: 0.65rem 1.4rem;
   border-radius: 0.25rem;
@@ -326,7 +326,7 @@ h2 {
   margin: 1.5rem auto;
   width: 350px;
   height: 350px;
-  background: radial-gradient(350px, #cd5e77, transparent 50%);
+  background: radial-gradient(350px, rgb(46, 67, 116), transparent 50%);
 }
 
 .skills-img .center-icon {
@@ -422,7 +422,7 @@ h2 {
   opacity: 1;
 }
 
-/*===== Anime =====*/
+/*===== MOVIES =====*/
 
 .mywork {
   overflow: hidden;
@@ -567,7 +567,7 @@ h2 {
   left: 0;
   width: 30%;
   height: 15px;
-  background: #000;
+  background: rgb(124, 129, 173);
   transform-origin: bottom;
   transform: skewX(45deg);
   transition: 0.5s;
@@ -581,7 +581,7 @@ h2 {
   left: -15px;
   width: 15px;
   height: 100%;
-  background: #000;
+  background: rgb(124, 129, 173);
   transform-origin: left;
   transform: skewY(45deg);
   transition: 0.5s;
@@ -631,7 +631,7 @@ h2 {
   position: relative;
   width: 150px;
   height: 100%;
-  background: #0d0d0d;
+  background: rgb(124, 129, 173);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -646,15 +646,15 @@ h2 {
   font-size: 29px;
 }
 
-/*===== movies Section =====*/
+/*===== ANIME Section =====*/
 .projects {
-  background: #fb839e;
+  background: rgb(46, 67, 116);
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: #000;
+  background: rgb(46, 67, 116);
 }
 
 svg {
@@ -679,7 +679,7 @@ svg {
   width: 450px;
   height: 234px;
   margin: 50px 50px;
-  background: #3d3d3d;
+  background: rgb(46, 67, 116);
   transform-style: preserve-3d;
 }
 
@@ -706,7 +706,7 @@ svg {
   transform-origin: top;
   transition: 0.5s;
   transform-style: preserve-3d;
-  color: #000;
+  color: rgb(46, 67, 116);
 }
 
 .projects .pj-container .p-box:hover .p-contentbx {
@@ -730,6 +730,304 @@ svg {
 }
 
 .projects .pj-container .p-box .p-contentbx a:hover {
-  color: #fb839e;
+  color: rgb(46, 67, 116);
 }
 
+/*===== Contact Section =====*/
+
+.contact {
+  width: 100%;
+  padding: 20px;
+  background: rgb(124, 129, 173);
+}
+.contact::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(rgb(46, 67, 116), #89fffd);
+  border-radius: 50%;
+  transform: translate(10px, 5px);
+}
+
+.rightcontact-info {
+  position: relative;
+  display: table;
+  width: 1100px;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border-radius: 30px;
+}
+
+.info-wrap {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  float: left;
+  display: block;
+  border-radius: 30px 0px 0px 30px;
+  color: #fff;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  backdrop-filter: blur(20px);
+}
+
+.info-title {
+  text-align: left;
+  font-size: 28px;
+}
+
+.info-sub-title {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 5px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  text-align:center;
+}
+
+.info-details {
+  margin: 10px 0;
+  text-align:center;
+}
+
+.info-details li {
+  margin-top: 25px;
+  font-size: 17px;
+}
+
+.info-details li i {
+  font-size: 25px;
+  color: rgb(46, 67, 116);
+  padding: 12px;
+  margin-right: 5px;
+}
+
+.info-details li a {
+  color: #fff;
+}
+
+.info-details li a:hover {
+  color: rgb(46, 67, 116);
+}
+
+.info-details span {
+  margin-left: 50px;
+}
+
+.form-wrap {
+  width: 65%;
+  float: right;
+  padding: 35px 25px 35px 25px;
+  border-radius: 0px 30px 30px 0px;
+  background: #ecf0f3;
+}
+
+.form-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-left: 23px;
+  color: #0d0d0d;
+}
+
+.form-title span {
+  font-family: "Satisfy", cursive;
+  font-size: 12px;
+  margin-left: 50px;
+}
+
+.form-fields {
+  display: table;
+  width: 100%;
+  height: auto;
+}
+
+.form-fields input,
+.form-fields textarea {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+  width: 100%;
+}
+
+.form-fields textarea {
+  height: 150px;
+  resize: none;
+}
+
+.form-group {
+  width: 46%;
+  float: left;
+  padding: 0px 30px;
+  margin: 14px 12px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbc3d1, inset -8px -8px 8px #ffffff;
+}
+
+.form-fields .form-group:last-child {
+  width: 96%;
+}
+
+#submit-button {
+  width: 96%;
+  height: 60px;
+  margin: 0px 12px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  background: rgb(46, 67, 116);
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+
+#submit-button:hover {
+  background: #0d0d0d;
+}
+
+/*=============== FOOTER ===============*/
+
+footer {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 90px;
+  background: rgb(46, 67, 116);
+  place-items: center;
+}
+
+.footer-contnt .fsocial-btn {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 0 25px;
+  text-align: center;
+  border-radius: 50px;
+  overflow: hidden;
+  float: left;
+  box-shadow: -5px -5px 17px 0 rgba(252, 150, 173, 0.9),
+    5px 5px 17px 0 rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease-out;
+}
+
+.fsocial-btn .icon {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background: #333;
+  border-radius: 50px;
+  float: left;
+  box-shadow: inset -5px -5px 17px 0 #000;
+}
+
+.fsocial-btn span {
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: 50px;
+}
+
+.fsocial-btn .icon i {
+  font-size: 30px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.fsocial-btn:hover {
+  width: 200px;
+  transition: all 0.4s ease-out;
+}
+
+.fsocial-btn:first-child:hover .icon {
+  background: #0e76a8;
+  box-shadow: inset 1px 0 20px 0 #000;
+}
+
+.fsocial-btn:nth-child(2):hover .icon {
+  background: #171515;
+  box-shadow: inset 1px 0 20px 0 #403f3f;
+}
+
+.fsocial-btn:last-child:hover .icon {
+  background: #3b5998;
+}
+
+.fsocial-btn span {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+footer .wave {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("img/wave.png");
+  background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animateWave_02 4s linear infinite;
+}
+
+footer .wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWave 3s linear infinite;
+}
+
+footer .wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave_02 3s linear infinite;
+}
+
+@keyframes animateWave {
+  0% {
+    background-position-x: 1000px;
+  }
+
+  100% {
+    background-position-x: 0px;
+  }
+}
+
+@keyframes animateWave_02 {
+  0% {
+    background-position-x: 0px;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
