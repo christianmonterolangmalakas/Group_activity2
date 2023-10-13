@@ -26,7 +26,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
-  background-color: blueviolet;
+  background-color: navy;
   color: white;
 }
 
@@ -70,6 +70,27 @@ a:hover {
   height: 300px;
   width: 300px;
   margin: auto 0;
+}
+.text-container {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-container h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+.text-container i {
+  color: #666;
+}
+
+.text-container p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
 }
 /*my interest Section */
 #myinterest {
