@@ -58,17 +58,42 @@ a:hover {
 }
 
 /*AboutRetiza Section */
-#AboutRetiza {
+#aboutretiza {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 2.5rem;
   height: 80vh;
 }
-
 .section_picture-container {
   display: flex;
   height: 300px;
   width: 300px;
   margin: auto 0;
-  border-color: greenyellow;
+}
+/*my interest Section */
+#myinterest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  height: 80vh;
+}
+
+/*my hobbies Section */
+#hobbies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  height: 80vh;
+}
+
+/*contact Section */
+#Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  height: 80vh;
 }
