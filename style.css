@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -66,48 +67,106 @@ a:hover {
   height: 80vh;
 }
 .section_picture-container {
+  border: 5px solid blue;
+  border-radius: 10px;
   display: flex;
   height: 300px;
   width: 300px;
-  margin: auto 0;
 }
+
 .text-container {
-  background-color: #f7f7f7;
-  border-radius: 10px;
+  margin: 150px auto;
+  width: 70%;
+  background-color: lightcyan;
+  border: 3px solid green;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .text-container h2 {
   color: #333;
-  font-size: 24px;
+  font-size: 42px;
 }
 
 .text-container i {
-  color: #666;
+  color: darkblue;
 }
 
 .text-container p {
-  color: #333;
+  color: black;
   font-size: 16px;
   line-height: 1.5;
 }
+
 /*my interest Section */
 #myinterest {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2.5rem;
-  height: 80vh;
+  display: flex; /* Use flexbox to align content horizontally */
+  justify-content: space-around; /* Distribute space around the elements */
+  align-items: center; /* Vertically align items in the center */
 }
 
-/*my hobbies Section */
+.interests {
+  width: 45%; /* Set the width of the interests container */
+}
+
+/* Style the list items */
+.interests li {
+  display: flex; /* Use flexbox for list items */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text within list items */
+}
+
+/* Style the images */
+.interests img {
+  max-width: 100%; /* Ensure images don't exceed the container width */
+  height: auto; /* Maintain the image's aspect ratio */
+  margin-top: 10px; /* Add some space between the image and text */
+}
+
+/* Add space between list items */
+.interests li + li {
+  margin-top: 20px;
+}
+
+/*My hobby Section*/
 #hobbies {
+  margin-top: 40px; /* Adjust the margin-top value to control the gap size */
+}
+
+/* The rest of the CSS for your hobbies section remains the same as in the previous response */
+.hobbies {
+  width: 45%;
+}
+
+.hobbies li {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  gap: 2.5rem;
-  height: 80vh;
+  text-align: center;
+}
+#hobbies img {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.hobbies img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.hobbies li + li {
+  margin-top: 20px;
+}
+
+/* Center images in the "Hobbies" section */
+#hobbies ul {
+  text-align: center;
 }
 
 /*contact Section */
