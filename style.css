@@ -67,25 +67,17 @@ input {
   height: 100vh;
   background-color: rgb(75, 82, 126);
   border-right: 2px solid #1a1a1a;
+
 }
 
-.nav_logo img {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 1.8rem;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  text-align: center;
-  margin: auto;
-}
+
 
 .nav_menu {
   position: fixed;
   transform: rotate(-90deg) translateX(-100%);
   transform-origin: left top;
   width: 100vh;
+  
 }
 
 .menu {
@@ -116,8 +108,8 @@ input {
 }
 
 .nav_toggle {
-  height: 32px;
-  width: 36px;
+  height: 33px;
+  width: 26px;
   cursor: pointer;
   position: fixed;
   right: 1.5rem;
@@ -220,7 +212,7 @@ input {
 }
 
 .button:hover {
-  background: #ec0b36 url("img/pixel.png");
+  background:#0e76a8;
   transition-delay: 0.8 s;
   background-size: 180px;
   animation: animate 0.8s steps(8) forwards;
@@ -422,7 +414,7 @@ h2 {
   opacity: 1;
 }
 
-/*===== MOVIES =====*/
+/*===== Anime =====*/
 
 .mywork {
   overflow: hidden;
@@ -646,7 +638,7 @@ h2 {
   font-size: 29px;
 }
 
-/*===== ANIME Section =====*/
+/*===== movies Section =====*/
 .projects {
   background: rgb(46, 67, 116);
   overflow: hidden;
@@ -739,6 +731,7 @@ svg {
   width: 100%;
   padding: 20px;
   background: rgb(124, 129, 173);
+  
 }
 .contact::before {
   content: "";
@@ -747,6 +740,7 @@ svg {
   height: 400px;
   background: linear-gradient(rgb(46, 67, 116), #89fffd);
   border-radius: 50%;
+
   transform: translate(10px, 5px);
 }
 
@@ -905,7 +899,7 @@ footer {
   display: grid;
   position: relative;
   width: 100%;
-  height: 90px;
+  height: -200px;
   background: rgb(46, 67, 116);
   place-items: center;
 }
@@ -919,7 +913,7 @@ footer {
   border-radius: 50px;
   overflow: hidden;
   float: left;
-  box-shadow: -5px -5px 17px 0 rgba(252, 150, 173, 0.9),
+  box-shadow: -5px -5px 17px 0 rgb(46, 67, 116),
     5px 5px 17px 0 rgba(0, 0, 0, 0.3);
   transition: all 0.4s ease-out;
 }
@@ -974,60 +968,4 @@ footer {
   letter-spacing: 3px;
 }
 
-footer .wave {
-  position: absolute;
-  top: -80px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url("img/wave.png");
-  background-size: 1000px 100px;
-}
 
-footer .wave#wave1 {
-  z-index: 1000;
-  opacity: 1;
-  bottom: 0;
-  animation: animateWave 4s linear infinite;
-}
-
-footer .wave#wave2 {
-  z-index: 999;
-  opacity: 0.5;
-  bottom: 10px;
-  animation: animateWave_02 4s linear infinite;
-}
-
-footer .wave#wave3 {
-  z-index: 1000;
-  opacity: 0.2;
-  bottom: 15px;
-  animation: animateWave 3s linear infinite;
-}
-
-footer .wave#wave4 {
-  z-index: 999;
-  opacity: 0.7;
-  bottom: 20px;
-  animation: animateWave_02 3s linear infinite;
-}
-
-@keyframes animateWave {
-  0% {
-    background-position-x: 1000px;
-  }
-
-  100% {
-    background-position-x: 0px;
-  }
-}
-
-@keyframes animateWave_02 {
-  0% {
-    background-position-x: 0px;
-  }
-
-  100% {
-    background-position-x: 1000px;
-  }
-}

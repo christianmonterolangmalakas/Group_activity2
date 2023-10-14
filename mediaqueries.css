@@ -9,6 +9,7 @@
   .contact {
     overflow: hidden;
   }
+  
 }
 
 @media screen and (max-width: 1024px) {
@@ -31,9 +32,7 @@
     transform: translateX(0);
   }
 
-  .nav_logo {
-    display: none;
-  }
+  
 
   .nav_menu {
     height: 100%;
@@ -72,7 +71,12 @@
   }
 
   .nav_toggle {
-    display: flex;
+    
+     display: inline-block; /* Make the icon visible */
+        font-size: 25px;
+        position: absolute;
+        top: 10px; 
+        right: 10px; 
   }
 
   .form-wrap {
@@ -288,7 +292,7 @@
     font-size: 0.6rem;
   }
 
-  /*Portfolio*/
+ 
 
   .mywebsite {
     position: relative;
@@ -422,3 +426,382 @@
 
 /* For Small Devices */
 
+@media screen and (max-width: 440px) {
+  .card {
+   
+    margin-left: 50px;
+  }
+  
+}
+@media screen and (max-width: 407px) {
+  .container {
+    margin: -70px;
+  }
+
+  .small-mepic {
+    width: 200px;
+  }
+
+  .home_hey {
+    font-size: 1rem;
+  }
+
+  .home_name {
+    font-size: 2.25rem;
+  }
+
+  .home_job {
+    font-size: 1.5rem;
+  }
+
+  .portname {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+
+  .imgbx {
+    width: 80%;
+    margin: 98px 0px -90px 60px;
+  }
+
+  .subnotice {
+    display: none;
+  }
+
+  .work-title {
+    font-size: 30px;
+    transform: none;
+  }
+
+  .work-title span {
+    display: none;
+  }
+
+  .pjtext {
+    transform: none;
+    font-size: 10px;
+    width: 110%;
+    text-align: center;
+  }
+
+  .myweb-git {
+    transform: none;
+    font-size: 10px;
+    padding: 7px 15px;
+  }
+
+  .designCard {
+    width: 300px;
+    height: 380px;
+  }
+
+  .designCard:before {
+    border-right: 210px solid #d9d9d9;
+  }
+
+  .designCard .card-content {
+    width: 70%;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .cardImg {
+    width: 90px;
+  }
+
+  .cardImg h5 {
+    font-size: 18px;
+  }
+
+  .contact::before {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+  }
+}
+@media screen and (max-width: 396px){
+    .work-title{
+
+    font-size: 20px;
+    transform: none;
+    margin-right:10px;
+    text-align:center;
+  }
+   .imgbx img {
+    max-width: 90%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+  }
+  .contact::before {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+  }
+    }
+@media screen and (max-width: 394px){
+ .rightcontact-info {
+  margin-left:-5px;
+  }
+}
+@media screen and (max-width: 350px){
+ .rightcontact-info {
+  margin-left:-35px;
+  }
+}
+
+@media screen and (max-width: 388px){
+ .work-title{
+
+    font-size: 20px;
+    transform: none;
+    margin-right:10px;
+    text-align:center;
+  }
+ .pjtext {
+    font-size: 10px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -15px;
+  }
+
+
+ .rightcontact-info {
+  margin-left:-10px;
+  }
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 382px){
+.imgbx img {
+    max-width: 90%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+    margin-right:-25px;
+  }
+   .rightcontact-info {
+  margin-left:-15px;
+  
+  }
+}
+@media screen and (max-width: 360px){
+.rightcontact-info {
+  margin-left:-25px;
+  
+  }
+
+}
+
+
+@media screen and (max-width: 337px){
+.rightcontact-info {
+  margin-left:-35px;
+  
+  }
+
+}
+
+@media screen and (max-width: 330px){
+.rightcontact-info {
+  margin-left:-45px;
+  
+  }
+.contact::before {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 318px){
+.rightcontact-info {
+  margin-left:-45px;
+  
+  }
+  
+
+}
+@media screen and (max-width: 371px){
+.work-title {
+    font-size: 24px; /* Reduce font size for work titles */
+    margin-left: -30px;
+  }
+  .pjtext {
+    font-size: 9.5px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .imgbx img {
+    max-width: 90%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+  }
+  .work-title {
+    font-size: 24px; /* Reduce font size for work titles */
+    margin-left: -30px;
+  }
+  .pjtext {
+    font-size: 9.5px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -30px;
+  }
+}
+@media screen and (max-width: 342px) {
+  .work-title {
+    font-size: 18px; /* Reduce font size for work titles */
+    margin-left: -90px;
+  }
+  .pjtext {
+    font-size: 9px;
+    text-align: left; /* Reduce font size for text content */
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  /* Adjust the layout for smaller screens */
+  .mywork {
+    padding: 20px 0; /* Add padding to create spacing */
+  }
+
+  .portfolio {
+    text-align: center; /* Center-align the content */
+    margin-right: 40px;
+  }
+
+  .portname {
+    font-size: 40px; /* Reduce font size for headings */
+  }
+
+  .subnotice {
+    display: none; /* Hide the subnotice */
+  }
+
+  /* Reduce the width of the images */
+  .imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+  }
+
+  .work-title {
+    font-size: 18px; /* Reduce font size for work titles */
+    margin-left: 10px;
+  }
+
+  .pjtext {
+    font-size: 8px;
+    text-align: left; /* Reduce font size for text content */
+    margin-left: -30px;
+  }
+
+  /* Center-align the buttons */
+  .myweb-git,
+  .myweb-live {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .designCard {
+    width: 300px;
+    height: 380px;
+  }
+
+  .designCard:before {
+    border-right: 210px solid #d9d9d9;
+  }
+
+  .designCard .card-content {
+    width: 70%;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 375px){
+   .imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+     margin-left: 120px;
+  }
+}
+@media screen and (max-width: 356px){
+.pjtext {
+    font-size: 8px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -40px;
+}
+ .imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+     margin-left: 110px;
+  }
+  
+  .work-title {
+    font-size: 18px; /* Reduce font size for work titles */
+    margin-left: -80px;
+  }
+}
+@media screen and (max-width: 340px) {
+.pjtext {
+    font-size: 8px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -50px;
+}
+}
+
+@media screen and (max-width: 330px) {
+.pjtext {
+    font-size: 8px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -55px;
+}
+.imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+.pjtext {
+    font-size: 7.5px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -55px;
+}
+.imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+    margin-left: 100px;
+  }
+  .work-title{
+     font-size: 18px; /* Reduce font size for work titles */
+    margin-left: -110px;
+  }
+  }
+
+@media screen and (max-width: 300px) {
+  .imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+    margin-left: 110px;
+  }
+  .work-title {
+    font-size: 18px; /* Reduce font size for work titles */
+    margin-left: -100px;
+  }
+  .pjtext {
+    font-size: 6.5px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 320px) {
+  .card {
+   
+    margin-left: 18px;
+  }
+  
+}
