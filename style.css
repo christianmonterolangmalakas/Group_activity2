@@ -967,3 +967,286 @@ footer {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+
+p {
+  color: black;
+}
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/*primary-navigation */
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  background-color: navy;
+  color: white;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+}
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.logo:hover {
+  cursor: default;
+}
+.section_picture-container img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+.section_picture-container img:hover {
+  transform: scale(1.1);
+}
+
+/*AboutRetiza Section */
+#aboutretiza {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  height: 95vh;
+}
+.a-section-picture-container {
+  margin-left: 12%;
+  border: 3px solid black;
+  border-radius: 0 px;
+  display: flex;
+  height: 300px;
+  width: 300px;
+}
+
+.text-container {
+  margin: 100px auto;
+  width: 50%;
+  background-color: lightcyan;
+  border: 3px solid green;
+  padding: 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 100px;
+}
+
+.text-container h2 {
+  color: black;
+  font-size: 42px;
+}
+
+.text-container i {
+  color: darkblue;
+}
+
+.text-container p {
+  color: black;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*my interest Section */
+#myinterest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  height: 80vh;
+}
+
+.interests-container {
+  text-align: center;
+}
+
+.interests {
+  width: 900px;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-interest-box {
+  margin: 10px;
+  width: 900px;
+  height: 400px;
+  box-shadow: -1px 0 10px #000000;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.a-interest-box img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.a-interest-box img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.a-interest-box:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+#text {
+  margin-top: 100px;
+}
+
+/*My hobby Section*/
+#hobbies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 0;
+  height: 80vh;
+}
+
+#hobbies img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hobbies {
+  width: 70%;
+}
+.hobbies ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: auto;
+}
+
+.hobbies li {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+#hobbies li:hover img {
+  transform: rotate(10deg) scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+#hobbies img {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.hobbies img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.hobbies li + li {
+  margin-top: 20px;
+}
+
+#hobbies ul {
+  text-align: center;
+}
+
+#Contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.a-contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  border-color: cyan;
+  background: navy;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+.a-contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.a-contact-info-container p {
+  font-size: larger;
+  align-items: center;
+}
+
+.Contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+footer {
+  height: auto;
+  margin: 0 1 rem;
+  background-color: navy;
+  border-color: blueviolet;
+}
+
+footer p {
+  text-align: center;
+  color: antiquewhite;
+}
