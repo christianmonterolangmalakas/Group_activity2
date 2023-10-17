@@ -91,7 +91,6 @@
   .skills {
     width: 290px;
     height: 290px;
-    
   }
 
   .skills-img .center-icon {
@@ -759,7 +758,6 @@
     max-width: 85%; /* Ensure images don't overflow */
     margin-bottom: 10px; /* Add spacing between images */
     margin-left: 110px;
-    
   }
   .work-title {
     font-size: 18px; /* Reduce font size for work titles */
@@ -774,9 +772,8 @@
   .card {
     margin-left: 18px;
   }
-
 }
-@media (501px <= width <=543px) {
+@media (501px <= width <=804px) {
   .home_data {
     text-align: center;
   }
@@ -786,7 +783,7 @@
   }
 
   .home_name {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
 @media (278px <= width <=723px) {
@@ -795,34 +792,57 @@
     margin-top: 300px;
   }
 }
-@media (300px <= width <=406px){
-  .imgbx img{
-  margin-top:20px;
-  margin-left:90px;
+@media (300px <= width <=406px) {
+  .imgbx img {
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+}
+@media (300px <= width <=320px) {
+  .portname {
+    margin-left: -50px;
+  }
+}
+@media (321px <= width <=347px) {
+  .portname {
+    margin-left: -22px;
+  }
+}
+@media (501px <= width <=806px) {
+  .imgbx img {
+    margin-top: 50px;
+    margin-left: 33px;
+  }
 }
 
+@media (806px <= width <=839px) {
+  .imgbx img {
+    margin-top: 55px;
+    margin-left: 33px;
+  }
 }
-@media (300px <= width <=320px){
-.portname{
-  margin-left:-50px;
+@media (407px <= width <=500px) {
+  .portname {
+    margin-left: -50px;
+  }
 }
+@media (321px <= width <=354px) {
+  .portname {
+    margin-left: -10px;
+    font-size: 30px;
+  }
 }
-@media (321px <= width <=347px){
-.portname{
-  margin-left:-22px;
-}
-}
-@media (501px <= width <=806px){
- .imgbx img{
-  margin-top:50px;
-  margin-left:33px;
 
-}
+@media (320px <= width <=354px) {
+  #Interest .portname {
+    margin-left: 20px;
+
+  }
 }
 
-@media (806px <= width <=839px){
- .imgbx img{
-  margin-top:55px;
-  margin-left:33px;
-}
+@media (406px <= width <=495px) {
+  #Interest .portname {
+    margin-left: 20px;
+
+  }
 }
