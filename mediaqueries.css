@@ -91,7 +91,7 @@
   .skills {
     width: 290px;
     height: 290px;
-    background: radial-gradient(290px, #cd5e77, transparent 50%);
+    
   }
 
   .skills-img .center-icon {
@@ -227,7 +227,7 @@
 
   .home {
     background-image: none;
-    background: #0d0d0d;
+    background: #395144;
     height: initial;
     align-items: initial;
     padding: 7rem 0 7rem;
@@ -271,7 +271,7 @@
   .skills {
     width: 222px;
     height: 210px;
-    background: radial-gradient(210px, #cd5e77, transparent 50%);
+    background: radial-gradient(210px, #b0d9b1, transparent 30%);
   }
 
   .skills-img .center-icon {
@@ -817,5 +817,12 @@
   margin-top:50px;
   margin-left:33px;
 
+}
+}
+
+@media (806px <= width <=839px){
+ .imgbx img{
+  margin-top:55px;
+  margin-left:33px;
 }
 }
