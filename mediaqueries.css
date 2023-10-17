@@ -1,0 +1,822 @@
+
+/*========== BREAKPOINTS ==========*/
+/* For Large Devices */
+@media screen and (max-width: 1408px) {
+  .container {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .contact {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .sidebar {
+    width: 100%;
+    z-index: 999;
+    transform: translateX(-100%);
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .show-sidebar {
+    transform: translateX(0);
+  }
+
+  .nav_menu {
+    height: 100%;
+    width: 100%;
+    transform: rotate(0deg) translateX(0);
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav_list {
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav_link {
+    padding: 1rem;
+    line-height: 6.5rem;
+    font-size: 2rem;
+  }
+
+  .nav_contact-link {
+    padding: 1rem;
+    line-height: 6.5rem;
+    font-size: 2rem;
+  }
+
+  .nav_link.active-link::after,
+  .nav_link:hover::after {
+    bottom: 0;
+  }
+
+  .nav_close {
+    display: block;
+  }
+
+  .nav_toggle {
+    display: inline-block; /* Make the icon visible */
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .form-wrap {
+    width: 65%;
+    float: right;
+    padding: 35px 25px 35px 25px;
+    border-radius: 0px 30px 30px 0px;
+  }
+
+  .card {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .skills {
+    width: 290px;
+    height: 290px;
+    background: radial-gradient(290px, #cd5e77, transparent 50%);
+  }
+
+  .skills-img .center-icon {
+    height: 150px;
+  }
+  .skil-con img {
+    height: 50px;
+  }
+
+  .projects .pj-container {
+    flex-direction: column;
+  }
+
+  .contact {
+    overflow: hidden;
+  }
+  .rightcontact-info {
+    width: 100%;
+  }
+
+  .info-wrap,
+  .form-wrap {
+    width: 100%;
+    height: inherit;
+    float: none;
+  }
+
+  .info-wrap {
+    border-radius: 30px 30px 0px 0px;
+  }
+
+  .form-wrap {
+    border-radius: 0px 0px 30px 30px;
+  }
+
+  .form-group {
+    width: 100%;
+    float: none;
+    margin: 25px 0px;
+  }
+
+  .form-fields .form-group:last-child,
+  .submit-button {
+    width: 100%;
+  }
+
+  .submit-button {
+    margin: 10px 0px;
+  }
+
+  .form-group {
+    float: right;
+  }
+
+  .whend p {
+    display: inline;
+    font-size: 17px;
+    color: #fff;
+  }
+
+  .work-title span {
+    display: none;
+  }
+}
+
+/* For Medium Devices */
+@media screen and (max-width: 768px) {
+  /*ABOUT*/
+
+  .about-section-col {
+    flex: 100%;
+    margin: 10px 0;
+  }
+
+  .abtext p {
+    margin: 10px 30px;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .form-group {
+    float: right;
+  }
+  #image-container {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mywebsite,
+  .work-title,
+  .pjtext,
+  .myweb-git {
+    transform: none;
+  }
+
+  .subnotice {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  .portname {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 463px) {
+  .work-title {
+    text-align: center;
+    margin-left: -60px;
+  }
+}
+@media screen and (max-width: 413px) {
+  .work-title {
+    text-align: left;
+    margin-left: -20px;
+    font-size: 5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  section {
+    overflow: hidden;
+  }
+  .container {
+    margin: -70px;
+  }
+  .nav_toggle {
+    right: initial;
+    left: 1.5rem;
+  }
+
+  .home {
+    background-image: none;
+    background: #0d0d0d;
+    height: initial;
+    align-items: initial;
+    padding: 7rem 0 7rem;
+  }
+
+  .home_container {
+    row-gap: 2rem;
+  }
+
+  .small-mepic {
+    display: block;
+    width: 100%;
+    justify-self: center;
+  }
+
+  .home_data {
+    text-align: center;
+  }
+
+  .home_hey {
+    font-size: 15px;
+  }
+
+  .home_name {
+    font-size: 45px;
+  }
+
+  .home_job {
+    font-size: 30px;
+  }
+
+  .home_job span {
+    font-weight: 500;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+
+  .skills {
+    width: 222px;
+    height: 210px;
+    background: radial-gradient(210px, #cd5e77, transparent 50%);
+  }
+
+  .skills-img .center-icon {
+    height: 100px;
+  }
+  .skil-con img {
+    height: 40px;
+  }
+  .skills-img .img-text {
+    left: -10px;
+    font-size: 1.5rem;
+  }
+  .skil-con .img-text {
+    font-size: 0.6rem;
+  }
+
+  .mywebsite {
+    position: relative;
+    align-items: center;
+    transform: none;
+    margin: auto;
+    padding: 50px;
+  }
+
+  .imgbx {
+    width: 70%;
+    margin: 115px 0px -70px 60px;
+  }
+
+  .portname {
+    font-size: 55px;
+    align-items: center;
+  }
+
+  .subnotice {
+    display: none;
+  }
+
+  .whend p {
+    display: inline;
+    font-size: 13px;
+    color: #fff;
+  }
+
+  .work-title {
+    font-size: 30px;
+    transform: none;
+  }
+
+  .work-title span {
+    display: none;
+  }
+
+  .pjtext {
+    transform: none;
+    font-size: 13px;
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .myweb-git {
+    transform: none;
+    font-size: 10px;
+    padding: 7px 15px;
+  }
+
+  .card {
+    position: relative;
+    align-items: center;
+    margin-left: 90px;
+  }
+
+  .designCard {
+    align-items: center;
+    position: relative;
+    width: 350px;
+    height: 410px;
+    margin-bottom: 50px;
+  }
+
+  .designCard:before {
+    border-right: 244px solid #d9d9d9;
+  }
+
+  .designCard .card-content {
+    width: 70%;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .designCard .card-content:before {
+    height: 500px;
+  }
+
+  .cardImg {
+    width: 105px;
+  }
+
+  .cardImg h5 {
+    font-size: 19px;
+  }
+
+  .projects {
+    overflow: visible;
+  }
+  .projects .pj-container .p-box {
+    width: 330px;
+    height: 114px;
+    margin: 0px auto;
+    margin-bottom: 120px;
+  }
+
+  .contact::before {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+
+  .footer-contnt .fsocial-btn {
+    height: 40px;
+    width: 40px;
+  }
+
+  .fsocial-btn .icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .fsocial-btn .icon i {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .fsocial-btn:hover {
+    width: 130px;
+  }
+
+  .fsocial-btn span {
+    font-size: 10px;
+  }
+
+  .form-title span {
+    margin-left: 100px;
+  }
+}
+
+/* For Small Devices */
+
+@media screen and (max-width: 440px) {
+  .card {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 407px) {
+  .container {
+    margin: -70px;
+  }
+
+  .small-mepic {
+    width: 200px;
+  }
+
+  .home_hey {
+    font-size: 1rem;
+  }
+
+  .home_name {
+    font-size: 2.25rem;
+  }
+
+  .home_job {
+    font-size: 1.5rem;
+  }
+
+  .portname {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+
+  .imgbx {
+    width: 80%;
+    margin: 98px 0px -90px 60px;
+  }
+
+  .subnotice {
+    display: none;
+  }
+
+  .work-title {
+    font-size: 30px;
+    transform: none;
+  }
+
+  .work-title span {
+    display: none;
+  }
+
+  .pjtext {
+    transform: none;
+    font-size: 10px;
+    width: 110%;
+    text-align: center;
+  }
+
+  .myweb-git {
+    transform: none;
+    font-size: 10px;
+    padding: 7px 15px;
+  }
+
+  .designCard {
+    width: 300px;
+    height: 380px;
+  }
+
+  .designCard:before {
+    border-right: 210px solid #d9d9d9;
+  }
+
+  .designCard .card-content {
+    width: 70%;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .cardImg {
+    width: 90px;
+  }
+
+  .cardImg h5 {
+    font-size: 18px;
+  }
+
+  .contact::before {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+  }
+}
+@media screen and (max-width: 396px) {
+  .work-title {
+    font-size: 20px;
+    transform: none;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .imgbx img {
+    max-width: 90%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+  }
+  .contact::before {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+  }
+}
+@media screen and (max-width: 394px) {
+  .rightcontact-info {
+    margin-left: -5px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .rightcontact-info {
+    margin-left: -35px;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .work-title {
+    font-size: 20px;
+    transform: none;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .pjtext {
+    font-size: 10px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -15px;
+  }
+
+  .rightcontact-info {
+    margin-left: -10px;
+  }
+}
+@media screen and (max-width: 382px) {
+  .imgbx img {
+    max-width: 90%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+    margin-right: -25px;
+  }
+  .rightcontact-info {
+    margin-left: -15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .rightcontact-info {
+    margin-left: -25px;
+  }
+}
+
+@media screen and (max-width: 337px) {
+  .rightcontact-info {
+    margin-left: -35px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .rightcontact-info {
+    margin-left: -45px;
+  }
+  .contact::before {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 318px) {
+  .rightcontact-info {
+    margin-left: -45px;
+  }
+}
+@media screen and (max-width: 371px) {
+  .work-title {
+    font-size: 24px; /* Reduce font size for work titles */
+    margin-left: -30px;
+  }
+  .pjtext {
+    font-size: 9.5px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .imgbx img {
+    max-width: 90%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+  }
+  .work-title {
+    font-size: 24px; /* Reduce font size for work titles */
+    margin-left: -30px;
+  }
+  .pjtext {
+    font-size: 9.5px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -30px;
+  }
+}
+@media screen and (max-width: 342px) {
+  .work-title {
+    font-size: 18px; /* Reduce font size for work titles */
+    margin-left: -90px;
+  }
+  .pjtext {
+    font-size: 9px;
+    text-align: left; /* Reduce font size for text content */
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  /* Adjust the layout for smaller screens */
+  .mywork {
+    padding: 20px 0; /* Add padding to create spacing */
+  }
+
+  .portfolio {
+    text-align: center; /* Center-align the content */
+    margin-right: 40px;
+  }
+
+  .portname {
+    font-size: 40px; /* Reduce font size for headings */
+  }
+
+  .subnotice {
+    display: none; /* Hide the subnotice */
+  }
+
+  /* Reduce the width of the images */
+  .imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+  }
+
+  .work-title {
+    font-size: 18px; /* Reduce font size for work titles */
+    margin-left: 10px;
+  }
+
+  .pjtext {
+    font-size: 8px;
+    text-align: left; /* Reduce font size for text content */
+    margin-left: -30px;
+  }
+
+  /* Center-align the buttons */
+  .myweb-git,
+  .myweb-live {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .designCard {
+    width: 300px;
+    height: 380px;
+  }
+
+  .designCard:before {
+    border-right: 210px solid #d9d9d9;
+  }
+
+  .designCard .card-content {
+    width: 70%;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+    margin-left: 120px;
+  }
+}
+@media screen and (max-width: 356px) {
+  .pjtext {
+    font-size: 8px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -40px;
+  }
+  .imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+    margin-left: 110px;
+  }
+
+  .work-title {
+    font-size: 18px; /* Reduce font size for work titles */
+    margin-left: -80px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .pjtext {
+    font-size: 8px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .pjtext {
+    font-size: 8px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -55px;
+  }
+  .imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .pjtext {
+    font-size: 7.5px;
+    text-align: center; /* Reduce font size for text content */
+    margin-left: -55px;
+  }
+  .imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+    margin-left: 100px;
+  }
+  .work-title {
+    font-size: 18px; /* Reduce font size for work titles */
+    margin-left: -110px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .imgbx img {
+    max-width: 85%; /* Ensure images don't overflow */
+    margin-bottom: 10px; /* Add spacing between images */
+    margin-left: 110px;
+    
+  }
+  .work-title {
+    font-size: 18px; /* Reduce font size for work titles */
+    margin-left: -100px;
+  }
+  .pjtext {
+    font-size: 6.5px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 320px) {
+  .card {
+    margin-left: 18px;
+  }
+
+}
+@media (501px <= width <=543px) {
+  .home_data {
+    text-align: center;
+  }
+
+  .home_hey {
+    font-size: 15px;
+  }
+
+  .home_name {
+    font-size: 45px;
+  }
+}
+@media (278px <= width <=723px) {
+  #hobbies {
+    height: 400vh;
+    margin-top: 300px;
+  }
+}
+@media (300px <= width <=406px){
+  .imgbx img{
+  margin-top:20px;
+  margin-left:90px;
+}
+
+}
+@media (300px <= width <=320px){
+.portname{
+  margin-left:-50px;
+}
+}
+@media (321px <= width <=347px){
+.portname{
+  margin-left:-22px;
+}
+}
+@media (501px <= width <=806px){
+ .imgbx img{
+  margin-top:50px;
+  margin-left:33px;
+
+}
+}
