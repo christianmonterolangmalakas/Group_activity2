@@ -766,16 +766,28 @@
 @media (278px <= width <=723px) {
   #hobbies {
     height: 400vh;
-    margin-top: 300px;
-  }
-}
-@media (723px <= width <=923px) {
-  #hobbies {
-    height: 400vh;
-    margin-top: -200px;
+    margin-top: -50px;
   }
 }
 
+@media (723px <= width <=923px) {
+  #hobbies {
+    height: 400vh;
+    margin-top: -300px;
+  }
+}
+@media (924px <= width <=1000px) {
+  #hobbies {
+    height: 400vh;
+    margin-top: -300px;
+  }
+}
+@media (342px <= width <=923px){
+   #hobbies {
+    height: 400vh;
+    margin-top: -180px;
+  }
+}
 
 @media (300px <= width <=406px) {
   .imgbx img {
@@ -829,5 +841,11 @@
   #Interest .portname {
     margin-left: 20px;
 
+  }
+}
+
+@media (278px <= width <=988px){
+  #svglang{
+      margin-top: -100px;
   }
 }
