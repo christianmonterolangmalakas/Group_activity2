@@ -232,7 +232,7 @@ input {
   font-size: 1.35rem;
 }
 
-/*===== About Section =====*/
+/*===== MONTERO'S HOBBY =====*/
 
 .about {
   width: 100%;
@@ -414,8 +414,70 @@ h2 {
   visibility: visible;
   opacity: 1;
 }
+/*RETIZA'S HOBBY*/
+.containerko {
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
 
-/*===== Anime =====*/
+        .containerko .cardko {
+            position: relative;
+            width: calc(33.33% - 40px); 
+            max-width: 300px;
+            height: 215px;
+            background: rgb(65, 100, 74);
+            margin: 15px; 
+            padding: 20px 15px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            transition: 0.3s ease-in-out;
+        }
+
+        .containerko .cardko:hover {
+            height: 420px;
+        }
+
+        .containerko .cardko .imgBxko {
+            position: relative;
+            width: 100%;
+            height: 260px;
+            top: -60px;
+            left: 0;
+            z-index: 1;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .containerko .cardko .imgBxko img {
+            max-width: 100%;
+            margin-top:50px;
+            border-radius: 4px;
+        }
+
+        .containerko .cardko .contentkos {
+            position: relative;
+            margin-top: -140px;
+            padding: 10px 15px;
+            text-align: center;
+            color: #111;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+
+        .containerko .cardko:hover .contentkos {
+            visibility: visible;
+            opacity: 1;
+            margin-top: -40px;
+            transition-delay: 0.3s;
+        }
+
+/*===== MOVIES SECTION =====*/
 
 .mywork {
   overflow: hidden;
@@ -510,33 +572,7 @@ h2 {
   width: 85%;
 }
 
-.myweb-git {
-  position: relative;
-  padding: 10px 20px;
-  display: inline-block;
-  background: transparent;
-  color: #fff;
-  transform-origin: top;
-  margin-top: 20px;
-  border: 2px solid #fff;
-  transform: skewX(-45deg);
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  transition: 0.5s;
-}
 
-.myweb-git:hover {
-  background: #fff;
-  color: #000;
-}
-
-.myweb-git i {
-  font-size: 20px;
-  padding-left: 7px;
-}
 
 .card {
   position: relative;
@@ -639,7 +675,7 @@ h2 {
   font-size: 29px;
 }
 
-/*===== movies Section =====*/
+/*===== INTEREST Section =====*/
 .projects {
   background: rgb(65, 100, 74);
   overflow: hidden;
@@ -694,13 +730,13 @@ svg {
   top: 50%;
   left: 50px;
   right: 50px;
-  background: #fff;
+ 
   transform: translateZ(20px) scaleY(0);
   padding: 10px 25px;
   transform-origin: top;
   transition: 0.5s;
   transform-style: preserve-3d;
-  color: #186f65;
+  color: white;
 }
 
 .projects .pj-container .p-box:hover .p-contentbx {
@@ -726,7 +762,8 @@ svg {
 .projects .pj-container .p-box .p-contentbx a:hover {
   color: rgb(46, 67, 116);
 }
-
+ 
+    
 /*===== Contact Section =====*/
 
 .contact {
@@ -893,75 +930,7 @@ footer {
   letter-spacing: 3px;
 }
 
-#hobbies {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 40px 0;
-  height: 150vh;
-  margin-top: 100px;
-}
 
-#hobbies img {
-  max-width: 100%;
-  height: auto;
-  align-items: center;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.hobbies {
-  width: 70%;
-}
-.hobbies ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-  align-items: flex-start;
-  margin-top: auto;
-}
-.hobbies p{
-  margin-top:10px;
-
-}
-
-.hobbies li {
-  width: calc(50% - 10px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-top: 20px;
-}
-#hobbies li:hover img {
-  transform: rotate(10deg) scale(1.1);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-#hobbies img {
-  width: 400px;
-  height: 300px;
-  margin: 0 auto;
-  display: block;
-}
-
-.hobbies img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 10px;
-  margin: 0 auto;
-  display: block;
-}
-
-.hobbies li + li {
-  margin-top: 20px;
-}
-
-#hobbies ul {
-  text-align: center;
-}
 #svglang {
   margin-top: 500px;
 }

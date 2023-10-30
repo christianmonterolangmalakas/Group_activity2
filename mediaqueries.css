@@ -160,8 +160,7 @@
 @media screen and (max-width: 767px) {
   .mywebsite,
   .work-title,
-  .pjtext,
-  .myweb-git {
+  .pjtext{
     transform: none;
   }
 
@@ -308,11 +307,7 @@
     padding-left: 10px;
   }
 
-  .myweb-git {
-    transform: none;
-    font-size: 10px;
-    padding: 7px 15px;
-  }
+  
 
   .card {
     position: relative;
@@ -389,9 +384,7 @@
     font-size: 10px;
   }
 
-  .form-title span {
-    margin-left: 100px;
-  }
+  
 }
 
 /* For Small Devices */
@@ -452,11 +445,6 @@
     text-align: center;
   }
 
-  .myweb-git {
-    transform: none;
-    font-size: 10px;
-    padding: 7px 15px;
-  }
 
   .designCard {
     width: 300px;
@@ -645,13 +633,7 @@
     margin-left: -30px;
   }
 
-  /* Center-align the buttons */
-  .myweb-git,
-  .myweb-live {
-    display: block;
-    text-align: center;
-    margin: 10px auto;
-  }
+ 
 
   .designCard {
     width: 300px;
@@ -763,31 +745,7 @@
     font-size: 40px;
   }
 }
-@media (278px <= width <=723px) {
-  #hobbies {
-    height: 400vh;
-    margin-top: -50px;
-  }
-}
 
-@media (723px <= width <=923px) {
-  #hobbies {
-    height: 400vh;
-    margin-top: -300px;
-  }
-}
-@media (924px <= width <=1000px) {
-  #hobbies {
-    height: 400vh;
-    margin-top: -300px;
-  }
-}
-@media (342px <= width <=923px){
-   #hobbies {
-    height: 400vh;
-    margin-top: -180px;
-  }
-}
 
 @media (300px <= width <=406px) {
   .imgbx img {
@@ -844,8 +802,75 @@
   }
 }
 
-@media (278px <= width <=988px){
+    @media (max-width: 320px) {
+            .containerko .cardko {
+                width: 100%; /* Full width on small screens */
+                margin: 15px 0;
+            }
+        }
+
+        @media (min-width: 321px) and (max-width: 768px) {
+            .containerko .cardko {
+                width: calc(50% - 30px); /* 2 cards in a row on medium screens */
+                margin: 15px;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1200px) {
+            .containerko .cardko {
+                width: calc(33.33% - 40px); /* 3 cards in a row on large screens */
+                margin: 15px;
+            }
+        }
+
+        @media (min-width: 1201px) and (max-width: 2000px) {
+            .containerko .cardko {
+                width: calc(25% - 50px); /* 4 cards in a row on extra large screens */
+                margin: 15px;
+            }
+        }
+        @media (321px <= width <=558px){
+         .contentkos h2{
+          margin-left: -10px;
+          font-size:30px;
+          
+         }
+        }
+  @media (321px <= width <=386px){
+     .contentkos h2{
+          margin-left: -20px;
+          font-size:25px;
+          
+         }
+  }       
+@media  (278px <= width <=360px){
+   .footer-contnt .fsocial-btn {
+    height: 30px;
+    width: 30px;
+  }
+
+  .fsocial-btn .icon {
+    height: 30px;
+    width: 30px;
+  }
+
+  .fsocial-btn .icon i {
+    font-size: 10px;
+    line-height: 30px;
+  }
+
+  .fsocial-btn:hover {
+    width: 100px;
+  }
+
+  .fsocial-btn span {
+    font-size: 5px;
+  }
+
+  
+}
+@media  (278px <= width <=2000px){
   #svglang{
-      margin-top: -100px;
+      margin-top: -50px;
   }
 }
