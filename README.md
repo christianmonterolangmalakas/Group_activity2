@@ -5,11 +5,11 @@ Albert Retiza:
 
 - Do the individual navigation, including: About Retiza, Interests, Hobbies, and Contact.
 - Help Montero decide on the outcome when it comes to merging.
-- Provide ideas for the background color and send them using the reference from Color Hunt.
+- I was task to provide ideas for the background color and send them using the reference from Color Hunt.
 - Discuss the media queries and how we should style the <h2> element, including the text style, shadow, and font.
   
 Christian Montero:
 
-- Design the layout of the website.
-- I added Vanilla Tilt JavaScript for hover effects in the Interest section images.
-- Also, added in mediaqueries.
+- I was task to design the layout of the website.
+- I was task to add Vanilla-Tilt JavaScript file for hover effects in the Interest section images.
+- Added in mediaqueries.
