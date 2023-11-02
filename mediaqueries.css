@@ -742,6 +742,24 @@
     font-size: 40px;
   }
 }
+@media (839px <= width <=989px) {
+  .Chucky-imgbx img {
+    margin-top: 15px;
+    margin-left: 83px;
+  }
+}
+@media (419px <= width <=450px) {
+  .Chucky-imgbx img {
+    margin-left: 100px;
+  }
+}
+
+@media (419px <= width <=450px) {
+  .Montero-Fave-Movie .TITLE {
+    margin-left: -10px;
+    font-size: 40px;
+  }
+}
 @media (321px <= width <=354px) {
   .TITLE {
     margin-left: -10px;
