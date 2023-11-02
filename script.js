@@ -28,7 +28,7 @@ if (navClose) {
 }
 
 /*Vanilla tilt js*/
-VanillaTilt.init(document.querySelectorAll(".p-box")),
+VanillaTilt.init(document.querySelectorAll(".Interest-box")),
   {
     max: 25,
     speed: 400,

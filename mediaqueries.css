@@ -68,21 +68,14 @@
   }
 
   .nav_toggle {
-    display: inline-block; /* Make the icon visible */
+    display: inline-block; 
     font-size: 25px;
     position: absolute;
     top: 10px;
     right: 10px;
   }
 
-  .form-wrap {
-    width: 65%;
-    float: right;
-    padding: 35px 25px 35px 25px;
-    border-radius: 0px 30px 30px 0px;
-  }
-
-  .card {
+  .second-fave-movie-card {
     margin-top: 150px;
   }
 }
@@ -100,7 +93,7 @@
     height: 50px;
   }
 
-  .projects .pj-container {
+  .Retiza-Montero-Interest .Interest-container {
     flex-direction: column;
   }
 
@@ -121,36 +114,27 @@
     border-radius: 30px 30px 0px 0px;
   }
 
-  
-
-  .whend p {
-    display: inline;
-    font-size: 17px;
-    color: #fff;
-  }
-
-  .work-title span {
+  .fave-childhood-movie-title span {
     display: none;
   }
 }
 
 /* For Medium Devices */
 @media screen and (max-width: 768px) {
-  /*ABOUT*/
+  /*MONTERO HOBBY*/
 
   .about-section-col {
     flex: 100%;
     margin: 10px 0;
   }
 
-  .abtext p {
+  .hobby-description p {
     margin: 10px 30px;
   }
 
-  .about {
+  .montero-hobby {
     text-align: center;
   }
-
 
   #image-container {
     justify-content: center;
@@ -158,30 +142,26 @@
 }
 
 @media screen and (max-width: 767px) {
-  .mywebsite,
-  .work-title,
-  .pjtext{
+  .Chucky-Movie-Section,
+  .fave-childhood-movie-title,
+  .Chucky-Movie-Description {
     transform: none;
-  }
-
-  .subnotice {
-    display: none;
   }
 }
 
 @media screen and (max-width: 627px) {
-  .portname {
+  .TITLE {
     margin-left: 10px;
   }
 }
 @media screen and (max-width: 463px) {
-  .work-title {
+  .fave-childhood-movie-title {
     text-align: center;
     margin-left: -60px;
   }
 }
 @media screen and (max-width: 413px) {
-  .work-title {
+  .fave-childhood-movie-title {
     text-align: left;
     margin-left: -20px;
     font-size: 5px;
@@ -230,11 +210,11 @@
     font-size: 45px;
   }
 
-  .home_job {
+  .home_student {
     font-size: 30px;
   }
 
-  .home_job span {
+  .home_student span {
     font-weight: 500;
   }
 
@@ -263,7 +243,7 @@
     font-size: 0.6rem;
   }
 
-  .mywebsite {
+  .Chucky-Movie-Section {
     position: relative;
     align-items: center;
     transform: none;
@@ -271,51 +251,39 @@
     padding: 50px;
   }
 
-  .imgbx {
+  .Chucky-imgbx {
     width: 70%;
     margin: 115px 0px -70px 60px;
   }
-
-  .portname {
+ 
+  #Interest .TITLE {
     font-size: 55px;
     align-items: center;
   }
 
-  .subnotice {
-    display: none;
-  }
-
-  .whend p {
-    display: inline;
-    font-size: 13px;
-    color: #fff;
-  }
-
-  .work-title {
+  .fave-childhood-movie-title {
     font-size: 30px;
     transform: none;
   }
 
-  .work-title span {
+  .fave-childhood-movie-title span {
     display: none;
   }
 
-  .pjtext {
+  .Chucky-Movie-Description {
     transform: none;
     font-size: 13px;
     width: 100%;
     padding-left: 10px;
   }
 
-  
-
-  .card {
+  .second-fave-movie-card {
     position: relative;
     align-items: center;
     margin-left: 90px;
   }
 
-  .designCard {
+  .second-fave-movie-3D-design-Card {
     align-items: center;
     position: relative;
     width: 350px;
@@ -323,32 +291,32 @@
     margin-bottom: 50px;
   }
 
-  .designCard:before {
+  .second-fave-movie-3D-design-Card:before {
     border-right: 244px solid #d9d9d9;
   }
 
-  .designCard .card-content {
+  .second-fave-movie-3D-design-Card .second-fave-movie-card-content {
     width: 70%;
     padding-bottom: 10px;
     font-size: 15px;
   }
 
-  .designCard .card-content:before {
+  .second-fave-movie-3D-design-Card .second-fave-movie-card-content:before {
     height: 500px;
   }
 
-  .cardImg {
+  .DonnieDarko-cardImg {
     width: 105px;
   }
 
-  .cardImg h5 {
+  .DonnieDarko-cardImg h5 {
     font-size: 19px;
   }
 
-  .projects {
+  .Retiza-Montero-Interest {
     overflow: visible;
   }
-  .projects .pj-container .p-box {
+  .Retiza-Montero-Interest .Interest-container .Interest-box {
     width: 330px;
     height: 114px;
     margin: 0px auto;
@@ -383,14 +351,12 @@
   .fsocial-btn span {
     font-size: 10px;
   }
-
-  
 }
 
 /* For Small Devices */
 
 @media screen and (max-width: 440px) {
-  .card {
+  .second-fave-movie-card {
     margin-left: 50px;
   }
 }
@@ -411,61 +377,56 @@
     font-size: 2.25rem;
   }
 
-  .home_job {
+  .home_student {
     font-size: 1.5rem;
   }
 
-  .portname {
+  .TITLE {
     font-size: 40px;
     margin-top: 40px;
   }
 
-  .imgbx {
+  .Chucky-imgbx {
     width: 80%;
     margin: 98px 0px -90px 60px;
   }
 
-  .subnotice {
-    display: none;
-  }
-
-  .work-title {
+  .fave-childhood-movie-title {
     font-size: 30px;
     transform: none;
   }
 
-  .work-title span {
+  .fave-childhood-movie-title span {
     display: none;
   }
 
-  .pjtext {
+  .Chucky-Movie-Description {
     transform: none;
     font-size: 10px;
     width: 110%;
     text-align: center;
   }
 
-
-  .designCard {
+  .second-fave-movie-3D-design-Card {
     width: 300px;
     height: 380px;
   }
 
-  .designCard:before {
+  .second-fave-movie-3D-design-Card:before {
     border-right: 210px solid #d9d9d9;
   }
 
-  .designCard .card-content {
+  .second-fave-movie-3D-design-Card .second-fave-movie-card-content {
     width: 70%;
     padding-bottom: 10px;
     font-size: 14px;
   }
 
-  .cardImg {
+  .DonnieDarko-cardImg {
     width: 90px;
   }
 
-  .cardImg h5 {
+  .DonnieDarko-cardImg h5 {
     font-size: 18px;
   }
 
@@ -476,15 +437,15 @@
   }
 }
 @media screen and (max-width: 396px) {
-  .work-title {
+  .fave-childhood-movie-title {
     font-size: 20px;
     transform: none;
     margin-right: 10px;
     text-align: center;
   }
-  .imgbx img {
-    max-width: 90%; /* Ensure images don't overflow */
-    margin-bottom: 10px; /* Add spacing between images */
+  .Chucky-imgbx img {
+    max-width: 90%; 
+    margin-bottom: 10px; 
   }
   .contact::before {
     width: 280px;
@@ -504,15 +465,15 @@
 }
 
 @media screen and (max-width: 388px) {
-  .work-title {
+  .fave-childhood-movie-title {
     font-size: 20px;
     transform: none;
     margin-right: 10px;
     text-align: center;
   }
-  .pjtext {
+  .Chucky-Movie-Description {
     font-size: 10px;
-    text-align: center; /* Reduce font size for text content */
+    text-align: center; 
     margin-left: -15px;
   }
 
@@ -521,9 +482,9 @@
   }
 }
 @media screen and (max-width: 382px) {
-  .imgbx img {
-    max-width: 90%; /* Ensure images don't overflow */
-    margin-bottom: 10px; /* Add spacing between images */
+  .Chucky-imgbx img {
+    max-width: 90%; 
+    margin-bottom: 10px; 
     margin-right: -25px;
   }
   .rightcontact-info {
@@ -559,176 +520,170 @@
   }
 }
 @media screen and (max-width: 371px) {
-  .work-title {
-    font-size: 24px; /* Reduce font size for work titles */
+  .fave-childhood-movie-title {
+    font-size: 24px; 
     margin-left: -30px;
   }
-  .pjtext {
+  .Chucky-Movie-Description {
     font-size: 9.5px;
-    text-align: center; /* Reduce font size for text content */
+    text-align: center; 
     margin-left: -30px;
   }
 }
 
 @media screen and (max-width: 365px) {
-  .imgbx img {
-    max-width: 90%; /* Ensure images don't overflow */
-    margin-bottom: 10px; /* Add spacing between images */
+  .Chucky-imgbx img {
+    max-width: 90%; 
+    margin-bottom: 10px; 
   }
-  .work-title {
-    font-size: 24px; /* Reduce font size for work titles */
+  .fave-childhood-movie-title {
+    font-size: 24px; 
     margin-left: -30px;
   }
-  .pjtext {
+  .Chucky-Movie-Description {
     font-size: 9.5px;
-    text-align: center; /* Reduce font size for text content */
+    text-align: center; 
     margin-left: -30px;
   }
 }
 @media screen and (max-width: 342px) {
-  .work-title {
-    font-size: 18px; /* Reduce font size for work titles */
+  .fave-childhood-movie-title {
+    font-size: 18px; 
     margin-left: -90px;
   }
-  .pjtext {
+  .Chucky-Movie-Description {
     font-size: 9px;
-    text-align: left; /* Reduce font size for text content */
+    text-align: left; 
     margin-left: -30px;
   }
 }
 
 @media screen and (max-width: 335px) {
-  /* Adjust the layout for smaller screens */
-  .mywork {
-    padding: 20px 0; /* Add padding to create spacing */
+  
+  .Montero-Fave-Movie {
+    padding: 20px 0; 
   }
 
-  .portfolio {
-    text-align: center; /* Center-align the content */
+  .All-Montero-Movies {
+    text-align: center; 
     margin-right: 40px;
   }
 
-  .portname {
-    font-size: 40px; /* Reduce font size for headings */
+  .TITLE {
+    font-size: 40px; 
   }
 
-  .subnotice {
-    display: none; /* Hide the subnotice */
+  
+  .Chucky-imgbx img {
+    max-width: 85%; 
+    margin-bottom: 10px; 
   }
 
-  /* Reduce the width of the images */
-  .imgbx img {
-    max-width: 85%; /* Ensure images don't overflow */
-    margin-bottom: 10px; /* Add spacing between images */
-  }
-
-  .work-title {
-    font-size: 18px; /* Reduce font size for work titles */
+  .fave-childhood-movie-title {
+    font-size: 18px; 
     margin-left: 10px;
   }
 
-  .pjtext {
+  .Chucky-Movie-Description {
     font-size: 8px;
-    text-align: left; /* Reduce font size for text content */
+    text-align: left; 
     margin-left: -30px;
   }
 
- 
-
-  .designCard {
+  .second-fave-movie-3D-design-Card {
     width: 300px;
     height: 380px;
   }
 
-  .designCard:before {
+  .second-fave-movie-3D-design-Card:before {
     border-right: 210px solid #d9d9d9;
   }
 
-  .designCard .card-content {
+  .second-fave-movie-3D-design-Card .second-fave-movie-card-content {
     width: 70%;
     padding-bottom: 10px;
     font-size: 14px;
   }
 }
 @media screen and (max-width: 375px) {
-  .imgbx img {
-    max-width: 85%; /* Ensure images don't overflow */
-    margin-bottom: 10px; /* Add spacing between images */
+  .Chucky-imgbx img {
+    max-width: 85%; 
+    margin-bottom: 10px; 
     margin-left: 120px;
   }
 }
 @media screen and (max-width: 356px) {
-  .pjtext {
+  .Chucky-Movie-Description {
     font-size: 8px;
-    text-align: center; /* Reduce font size for text content */
+    text-align: center; 
     margin-left: -40px;
   }
-  .imgbx img {
-    max-width: 85%; /* Ensure images don't overflow */
-    margin-bottom: 10px; /* Add spacing between images */
+  .Chucky-imgbx img {
+    max-width: 85%; 
+    margin-bottom: 10px; 
     margin-left: 110px;
   }
 
-  .work-title {
-    font-size: 18px; /* Reduce font size for work titles */
+  .fave-childhood-movie-title {
+    font-size: 18px; 
     margin-left: -80px;
   }
 }
 @media screen and (max-width: 340px) {
-  .pjtext {
+  .Chucky-Movie-Description {
     font-size: 8px;
-    text-align: center; /* Reduce font size for text content */
+    text-align: center; 
     margin-left: -50px;
   }
 }
 
 @media screen and (max-width: 330px) {
-  .pjtext {
+  .Chucky-Movie-Description {
     font-size: 8px;
-    text-align: center; /* Reduce font size for text content */
+    text-align: center; 
     margin-left: -55px;
   }
-  .imgbx img {
-    max-width: 85%; /* Ensure images don't overflow */
-    margin-bottom: 10px; /* Add spacing between images */
+  .Chucky-imgbx img {
+    max-width: 85%; 
+    margin-bottom: 10px; 
     margin-left: 100px;
   }
 }
 
 @media screen and (max-width: 325px) {
-  .pjtext {
+  .Chucky-Movie-Description {
     font-size: 7.5px;
-    text-align: center; /* Reduce font size for text content */
+    text-align: center; 
     margin-left: -55px;
   }
-  .imgbx img {
-    max-width: 85%; /* Ensure images don't overflow */
-    margin-bottom: 10px; /* Add spacing between images */
+  .Chucky-imgbx img {
+    max-width: 85%; 
+    margin-bottom: 10px; 
     margin-left: 100px;
   }
-  .work-title {
-    font-size: 18px; /* Reduce font size for work titles */
+  .fave-childhood-movie-title {
+    font-size: 18px; 
     margin-left: -110px;
   }
 }
 
 @media screen and (max-width: 300px) {
-  .imgbx img {
-    max-width: 85%; /* Ensure images don't overflow */
-    margin-bottom: 10px; /* Add spacing between images */
+  .Chucky-imgbx img {
+    max-width: 85%; 
+    margin-bottom: 10px; 
     margin-left: 110px;
   }
-  .work-title {
-    font-size: 18px; /* Reduce font size for work titles */
+  .fave-childhood-movie-title {
+    font-size: 18px; 
     margin-left: -100px;
   }
-  .pjtext {
+  .Chucky-Movie-Description {
     font-size: 6.5px;
     text-align: left;
   }
 }
 @media screen and (max-width: 320px) {
-  .card {
+  .second-fave-movie-card {
     margin-left: 18px;
   }
 }
@@ -746,105 +701,107 @@
   }
 }
 
-
 @media (300px <= width <=406px) {
-  .imgbx img {
+  .Chucky-imgbx img {
     margin-top: 20px;
     margin-left: 90px;
   }
 }
 @media (300px <= width <=320px) {
-  .portname {
+  .TITLE {
     margin-left: -50px;
   }
 }
 @media (321px <= width <=347px) {
-  .portname {
+  .TITLE {
     margin-left: -22px;
   }
 }
 @media (501px <= width <=806px) {
-  .imgbx img {
+  .Chucky-imgbx img {
     margin-top: 50px;
     margin-left: 33px;
   }
 }
 
 @media (806px <= width <=839px) {
-  .imgbx img {
+  .Chucky-imgbx img {
     margin-top: 55px;
     margin-left: 33px;
   }
 }
+@media (407px <= width <=550px) {
+  .Montero-Fave-Movie .TITLE {
+    margin-left: -40px;
+    font-size: 60px;
+  }
+}
 @media (407px <= width <=500px) {
-  .portname {
-    margin-left: -50px;
+  .Montero-Fave-Movie .TITLE {
+    margin-left: 10px;
+    font-size: 40px;
   }
 }
 @media (321px <= width <=354px) {
-  .portname {
+  .TITLE {
     margin-left: -10px;
     font-size: 30px;
   }
 }
 
 @media (320px <= width <=354px) {
-  #Interest .portname {
+  #Interest .TITLE {
     margin-left: 20px;
-
   }
 }
 
 @media (406px <= width <=495px) {
-  #Interest .portname {
+  #Interest .TITLE {
     margin-left: 20px;
-
   }
 }
 
-    @media (max-width: 320px) {
-            .containerko .cardko {
-                width: 100%; /* Full width on small screens */
-                margin: 15px 0;
-            }
-        }
+@media (max-width: 320px) {
+  .RetizaHobby .Retiza-card {
+    width: 100%; 
+    margin: 15px 0;
+  }
+}
 
-        @media (min-width: 321px) and (max-width: 768px) {
-            .containerko .cardko {
-                width: calc(50% - 30px); /* 2 cards in a row on medium screens */
-                margin: 15px;
-            }
-        }
+@media (min-width: 321px) and (max-width: 768px) {
+  .RetizaHobby .Retiza-card {
+    width: calc(50% - 30px); 
+    margin: 15px;
+  }
+}
 
-        @media (min-width: 769px) and (max-width: 1200px) {
-            .containerko .cardko {
-                width: calc(33.33% - 40px); /* 3 cards in a row on large screens */
-                margin: 15px;
-            }
-        }
+@media (min-width: 769px) and (max-width: 1200px) {
+  .RetizaHobby .Retiza-card {
+    width: calc(33.33% - 40px); 
+    margin: 15px;
+  }
+}
 
-        @media (min-width: 1201px) and (max-width: 2000px) {
-            .containerko .cardko {
-                width: calc(25% - 50px); /* 4 cards in a row on extra large screens */
-                margin: 15px;
-            }
-        }
-        @media (321px <= width <=558px){
-         .contentkos h2{
-          margin-left: -10px;
-          font-size:30px;
-          
-         }
-        }
-  @media (321px <= width <=386px){
-     .contentkos h2{
-          margin-left: -20px;
-          font-size:25px;
-          
-         }
-  }       
-@media  (278px <= width <=360px){
-   .footer-contnt .fsocial-btn {
+@media (min-width: 1201px) and (max-width: 2000px) {
+  .RetizaHobby .Retiza-card {
+    width: calc(25% - 50px); 
+    margin: 15px;
+  }
+}
+@media (321px <= width <=558px) {
+  .RetizaHobbycontent h2 {
+    margin-left: -10px;
+    font-size: 30px;
+  }
+}
+@media (321px <= width <=386px) {
+  .RetizaHobbycontent h2 {
+    margin-left: -20px;
+    font-size: 25px;
+  }
+}
+@media (278px <= width <=360px) {
+  .footer-contnt .fsocial-btn {
     height: 30px;
     width: 30px;
   }
@@ -866,11 +823,70 @@
   .fsocial-btn span {
     font-size: 5px;
   }
-
-  
 }
-@media  (278px <= width <=2000px){
-  #svglang{
-      margin-top: -50px;
+@media (278px <= width <=2000px) {
+  #BLACK-WAVE-BORDER {
+    margin-top: -50px;
+  }
+}
+@media (839px <= width <=989px) {
+  .Chucky-imgbx img {
+    margin-top: 15px;
+    margin-left: 83px;
+  }
+}
+
+@media (1068px <= width <=1217px) {
+  .fave-childhood-movie-title {
+    font-size: 48px; 
+  }
+}
+@media (1004px <= width <=1068px) {
+  .fave-childhood-movie-title {
+    font-size: 38px; 
+    margin-left: 90px;
+  }
+  .Chucky-Movie-Description {
+    margin-left: 90px;
+  }
+}
+@media (1025px <= width <=1035px) {
+  .fave-childhood-movie-title {
+    font-size: 30px; 
+  }
+}
+@media (820px <= width <=926px) {
+  .fave-childhood-movie-title {
+    font-size: 50px; 
+  }
+}
+@media (767px <= width <=839px) {
+  .fave-childhood-movie-title {
+    margin-top: 40px; 
+  }
+}
+@media (767px <= width <=820px) {
+  .fave-childhood-movie-title {
+    font-size: 40px; 
+  }
+}
+@media (320px<= width <=363px) {
+  .second-fave-movie-card {
+    margin-left: 30px;
+  }
+}
+@media (578px<= width <=675px) {
+  .second-fave-movie-card {
+    margin-left: 50px;
+  }
+}
+@media (530px<= width <=578px) {
+  .second-fave-movie-card {
+    margin-left: 30px;
+  }
+}
+@media (500px<= width <=530px) {
+  .second-fave-movie-card {
+    margin-left: 15px;
   }
 }

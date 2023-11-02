@@ -180,13 +180,13 @@ input {
   text-shadow:5px 1px black;
 }
 
-.home_job {
+.home_student{
   font-family: "Satisfy", cursive;
   font-size: 40px;
   margin: 0.8rem 0.1rem;
 }
 
-.home_job span {
+.home_student span {
   font-weight: 500;
 }
 
@@ -234,7 +234,7 @@ input {
 
 /*===== MONTERO'S HOBBY =====*/
 
-.about {
+.montero-hobby {
   width: 100%;
 }
 
@@ -253,7 +253,7 @@ h2 {
   margin: auto;
 }
 
-.about-section-row {
+.montero-hobby-section-row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -262,7 +262,7 @@ h2 {
   flex: 50%;
 }
 
-.abtext p {
+.hobby-description p {
   text-align: justify;
   font-size: 17px;
   font-weight: 600;
@@ -271,7 +271,7 @@ h2 {
   color: #fff;
 }
 
-.about a {
+.montero-hobby a {
   display: inline-block;
   align-items: center;
   background-color: #0d0d0d;
@@ -287,8 +287,8 @@ h2 {
   transition: transform 0.3 ease;
 }
 
-.about a::after,
-.about a::before {
+.montero-hobby a::after,
+.montero-hobby a::before {
   content: "";
   position: absolute;
   opacity: 0.3;
@@ -302,15 +302,15 @@ h2 {
   transition: transform 0.3s ease;
 }
 
-.about a:hover {
+.montero-hobby a:hover {
   transform: translate(-12px, -12px);
 }
 
-.about a:hover::after {
+.montero-hobby a:hover::after {
   transform: translate(6px, 6px);
 }
 
-.about a:hover::before {
+.montero-hobby a:hover::before {
   transform: translate(12px, 12px);
 }
 
@@ -415,7 +415,7 @@ h2 {
   opacity: 1;
 }
 /*RETIZA'S HOBBY*/
-.containerko {
+.RetizaHobby {
             position: relative;
             width: 100%;
             display: flex;
@@ -425,7 +425,7 @@ h2 {
             padding: 30px;
         }
 
-        .containerko .cardko {
+        .RetizaHobby .Retiza-card {
             position: relative;
             width: calc(33.33% - 40px); 
             max-width: 300px;
@@ -439,11 +439,11 @@ h2 {
             transition: 0.3s ease-in-out;
         }
 
-        .containerko .cardko:hover {
+        .RetizaHobby .Retiza-card:hover {
             height: 420px;
         }
 
-        .containerko .cardko .imgBxko {
+        .RetizaHobby .Retiza-card .Retiza-imgBx {
             position: relative;
             width: 100%;
             height: 260px;
@@ -453,13 +453,13 @@ h2 {
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
         }
 
-        .containerko .cardko .imgBxko img {
+        .RetizaHobby .Retiza-card .Retiza-imgBx img {
             max-width: 100%;
             margin-top:50px;
             border-radius: 4px;
         }
 
-        .containerko .cardko .contentkos {
+        .RetizaHobby .Retiza-card .RetizaHobbycontent {
             position: relative;
             margin-top: -140px;
             padding: 10px 15px;
@@ -470,51 +470,51 @@ h2 {
             transition: 0.3s ease-in-out;
         }
 
-        .containerko .cardko:hover .contentkos {
+        .RetizaHobby .Retiza-card:hover .RetizaHobbycontent {
             visibility: visible;
             opacity: 1;
             margin-top: -40px;
             transition-delay: 0.3s;
         }
 
+#BLACK-WAVE-BORDER {
+  margin-top: 500px;
+}
 /*===== MOVIES SECTION =====*/
 
-.mywork {
+.Montero-Fave-Movie {
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
 }
 
-.portfolio {
+.All-Montero-Movies{
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.portname {
+.TITLE {
   float: left;
   margin: 0px 50px;
   font-size: 70px;
   padding: 12px 25px;
 }
 
-.portname span {
+.TITLE span {
   color: #fff;
 }
 
-.subnotice p {
-  font-size: 10px;
-  font-family: "Montserrat", sans-serif;
-}
 
-.mywebsite {
+
+.Chucky-Movie-Section {
   position: relative;
   margin: 180px 100px 0px 100px;
   max-width: 1000px;
   transform: skewY(-20deg);
 }
 
-.imgbx {
+.Chucky-imgbx {
   position: relative;
   width: 100%;
   height: 180px;
@@ -522,7 +522,7 @@ h2 {
   transform: skewX(45deg);
 }
 
-.imgbx img {
+.Chucky-imgbx img {
   position: absolute;
   top: 0;
   left: 0;
@@ -532,41 +532,39 @@ h2 {
   transition: 0.5s;
 }
 
-.imgbx:hover img:nth-child(3) {
+.Chucky-imgbx:hover img:nth-child(3) {
   transform: translate(100px, -100px);
 }
 
-.imgbx:hover img:nth-child(2) {
+.Chucky-imgbx:hover img:nth-child(2) {
   transform: translate(50px, -50px);
   opacity: 0.5;
 }
 
-.imgbx:hover img:nth-child(1) {
+.Chucky-imgbx:hover img:nth-child(1) {
   transform: translate(0px, 0px);
   opacity: 0.1;
 }
 
-.whend p {
-  display: none;
-}
 
-.work-title {
+
+.fave-childhood-movie-title {
   position: relative;
   color: #fff;
   font-size: 4em;
 }
 
-.work-title span {
+.fave-childhood-movie-title span {
   font-size: 20px;
 }
 
-.pjtext {
+.Chucky-Movie-Description {
   transform-origin: top;
   transform: skew(45deg);
   width: 100%;
 }
 
-.pjtext p {
+.Chucky-Movie-Description p {
   color: #fff;
   font-size: 1.6em;
   width: 85%;
@@ -574,14 +572,14 @@ h2 {
 
 
 
-.card {
+.second-fave-movie-card{
   position: relative;
   float: right;
   transform: skewY(-10deg);
   margin: 50px 100px 100px 0px;
 }
 
-.designCard {
+.second-fave-movie-3D-design-Card {
   position: relative;
   width: 500px;
   height: 350px;
@@ -589,7 +587,7 @@ h2 {
   transition: 0.5s;
 }
 
-.designCard:before {
+.second-fave-movie-3D-design-Card:before {
   content: "";
   position: absolute;
   top: -15px;
@@ -603,7 +601,7 @@ h2 {
   border-right: 350px solid #d9d9d9;
 }
 
-.designCard:after {
+.second-fave-movie-3D-design-Card:after {
   content: "";
   position: absolute;
   top: -15px;
@@ -616,11 +614,11 @@ h2 {
   transition: 0.5s;
 }
 
-.designCard:hover {
+.second-fave-movie-3D-design-Card:hover {
   transform: translateY(-40px);
 }
 
-.designCard .card-content {
+.second-fave-movie-3D-design-Card .second-fave-movie-card-content {
   position: relative;
   width: 70%;
   color: #000;
@@ -629,7 +627,7 @@ h2 {
   font-size: 17px;
 }
 
-.designCard .card-content:before {
+.second-fave-movie-3D-design-Card .second-fave-movie-card-content:before {
   content: "";
   position: absolute;
   left: 0;
@@ -644,19 +642,19 @@ h2 {
   z-index: -1;
 }
 
-.designCard .card-content:before {
+.second-fave-movie-3D-design-Card .second-fave-movie-card-content:before {
   transform: translateY(40px) skewX(45deg);
   filter: blur(5px);
   opacity: 0.5;
 }
 
-.card-content p span {
+.second-fave-movie-card-content p span {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 25px;
 }
 
-.cardImg {
+.DonnieDarko-cardImg {
   position: relative;
   width: 150px;
   height: 100%;
@@ -667,7 +665,7 @@ h2 {
   flex-direction: column;
 }
 
-.cardImg h5 {
+.DonnieDarko-cardImg h5 {
   position: relative;
   color: #fff;
   margin-top: 10px;
@@ -676,7 +674,7 @@ h2 {
 }
 
 /*===== INTEREST Section =====*/
-.projects {
+.Retiza-Montero-Interest {
   background: rgb(65, 100, 74);
   overflow: hidden;
   display: flex;
@@ -691,12 +689,12 @@ svg {
  
 }
 
-.projects .portname {
+.Retiza-Montero-Interest .TITLE {
   color: #212121;
   margin-top: 10px;
 }
 
-.projects .pj-container {
+.Retiza-Montero-Interest .Interest-container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -704,7 +702,7 @@ svg {
   transform-style: preserve-3d;
 }
 
-.projects .pj-container .p-box {
+.Retiza-Montero-Interest .Interest-container .Interest-box{
   position: relative;
   width: 450px;
   height: 234px;
@@ -713,7 +711,7 @@ svg {
   transform-style: preserve-3d;
 }
 
-.projects .pj-container .p-box .p-imgbx {
+.Retiza-Montero-Interest .Interest-container .Interest-box .Interest-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -721,11 +719,11 @@ svg {
   height: 100%;
 }
 
-.projects .pj-container .p-box:hover {
+.Retiza-Montero-Interest .Interest-container .Interest-box:hover {
   box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
 }
 
-.projects .pj-container .p-box .p-contentbx {
+.Retiza-Montero-Interest .Interest-container .Interest-box .Interest-contentbx {
   position: absolute;
   top: 50%;
   left: 50px;
@@ -739,18 +737,18 @@ svg {
   color: white;
 }
 
-.projects .pj-container .p-box:hover .p-contentbx {
+.Retiza-Montero-Interest .Interest-container .Interest-box:hover .Interest-contentbx {
   transform: translateZ(50px) scaleY(1);
 }
 
-.projects .pj-container .p-box .p-contentbx h4 {
+.Retiza-Montero-Interest .Interest-container .Interest-box .Interest-contentbx h4 {
   text-align: center;
   letter-spacing: 3px;
   font-family: "Montserrat", sans-serif;
   padding-bottom: 5px;
 }
 
-.projects .pj-container .p-box .p-contentbx a {
+.Retiza-Montero-Interest .Interest-container .Interest-box .Interest-contentbx a {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
   color: #000;
@@ -759,7 +757,7 @@ svg {
   float: right;
 }
 
-.projects .pj-container .p-box .p-contentbx a:hover {
+.Retiza-Montero-Interest .Interest-container .Interest-box .Interest-contentbx a:hover {
   color: rgb(46, 67, 116);
 }
  
@@ -931,6 +929,3 @@ footer {
 }
 
 
-#svglang {
-  margin-top: 500px;
-}
